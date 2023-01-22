@@ -1,7 +1,5 @@
 import {employee, report} from "./EmployeeReport";
 
-
-
 const employees: employee[] = [
   {age: 17, name: "Max"},
   {age: 18,name: "Sepp"},
