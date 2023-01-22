@@ -1,0 +1,25 @@
+{
+  "name": "employee-report",
+  "version": "1.0.0",
+  "description": "https://codingdojo.org/kata/Employee-Report/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchandlersmith/employee-report.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchandlersmith/employee-report/issues"
+  },
+  "homepage": "https://github.com/nchandlersmith/employee-report#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.6",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.4"
+  }
+}
