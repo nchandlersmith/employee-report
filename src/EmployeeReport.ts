@@ -5,7 +5,7 @@ export interface employee {
 
 export function report(employees: employee[]): employee[] {
   const filtered = employees.filter(employee => employee.age >= 18)
-  const sorted = filtered.sort((a,b) => sortByName(a,b))
+  const sorted = filtered.sort(sortByName)
   return sorted.map(employee => ({name: employee.name.toUpperCase(), age: employee.age}))
 }
 
