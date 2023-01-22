@@ -3,22 +3,10 @@ import {employee, report} from "./EmployeeReport";
 
 
 const employees: employee[] = [
-  {
-    age: 17,
-    name: "Max"
-  },
-  {
-    age: 18,
-    name: "Sepp"
-  },
-  {
-    age: 15,
-    name: "Nina"
-  },
-  {
-    age: 51,
-    name: "Mike"
-  }
+  {age: 17, name: "Max"},
+  {age: 18,name: "Sepp"},
+  {age: 15,name: "Nina"},
+  {age: 51,name: "Mike"}
 ]
 
 describe('EmployeeReport', () => {
